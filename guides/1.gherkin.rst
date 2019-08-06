@@ -164,7 +164,7 @@ un tableau juste derrière votre scénario :
 
 .. code-block:: gherkin
 
-    Plan de scénario: Manger
+    Plan du scénario: Manger
       Etant donné qu'il y a <initial> concombres
       Quand je mange <mangés> concombres
       Alors je dois avoir <restant> concombres
@@ -175,7 +175,7 @@ un tableau juste derrière votre scénario :
         |  20     |  5     |  15  |
 
 Les Plans de scénario fournissent un modèle qui n'est jamais exécuté d'un coup.
-Un Plan de scénario est en réalité exécuté pour chacune des lignes qui composent
+Un Plan du scénario est en réalité exécuté pour chacune des lignes qui composent
 la section d'Exemples qui le suit (en excluant bien entendu la première ligne 
 d'en-tête).
 
@@ -205,7 +205,7 @@ Lorsqu'on exécute la première ligne de notre exemple :
 
 .. code-block:: gherkin
 
-    Plan de scénario: Manger
+    Plan du scénario: Manger
       Etant donné qu'il y a <initial> concombres
       Quand je mange <mangés> concombres
       Alors je dois avoir <restant> concombres
@@ -219,7 +219,7 @@ Le scénario qui est en train de s'exécuter alors est :
 
 .. code-block:: gherkin
 
-    Plan de scénario: Manger
+    Plan du scénario: Manger
       # <initial> est remplacé par 12 :
       Etant donné qu'il y a <initial> concombres
       # <mangés> est remplacé par 5 :
